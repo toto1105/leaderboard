@@ -24,7 +24,7 @@ Label(master, text=player1, font=("Courier", 20)).grid(row=2)
 Label(master, text=player2, font=("Courier", 20)).grid(row=3)
 Label(master, text=player3, font=("Courier", 20)).grid(row=4)
 
-Label(master, textvariable=kills_p1, font=("Courier", 20)).grid(column = 2, row=2)
+Label(master, textvariable=kills_p1, font=("Courier", 20)).grid(column = 2, row=2) 
 
 tkinter.ttk.Separator(master, orient=VERTICAL).grid(column=1, row=1, rowspan=4, sticky='ns')
 tkinter.ttk.Separator(master, orient=VERTICAL).grid(column=3, row=1, rowspan=4, sticky='ns')
@@ -36,7 +36,7 @@ tkinter.ttk.Separator(master, orient=VERTICAL).grid(column=3, row=1, rowspan=4, 
 #Buttons
 Button(master, text="p1: add kill", font=("Courier", 20), command=kill_count_p1).grid(column=4, row=2)
 
-
+print("this is not a fully working project yet so don't worry")
 
                    
                    
