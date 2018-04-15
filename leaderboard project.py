@@ -27,7 +27,7 @@ Label(master, text=player3, font=("Courier", 20)).grid(row=4)
 Label(master, textvariable=kills_p1, font=("Courier", 20)).grid(column = 2, row=2)
 
 tkinter.ttk.Separator(master, orient=VERTICAL).grid(column=1, row=1, rowspan=4, sticky='ns')
-tkinter.ttk.Separator(master, orient=VERTICAL width=30).grid(column=3, row=1, rowspan=4, sticky='ns')
+tkinter.ttk.Separator(master, orient=VERTICAL).grid(column=3, row=1, rowspan=4, sticky='ns')
 
 #button_commands
 
